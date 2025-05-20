@@ -72,22 +72,22 @@ export default function ColorSnap() {
   });
 
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900 flex flex-col">
+    <div className="flex flex-col min-h-screen text-gray-900 bg-gray-50">
       {/* Hero Section */}
-      <header className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 py-16 text-white text-center">
+      <header className="py-16 text-center text-white bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
         <h1 className="text-5xl font-extrabold tracking-tight animate-fade-in">
           🎨 ColorSnap
         </h1>
-        <p className="mt-3 text-xl max-w-2xl mx-auto">
+        <p className="max-w-2xl mx-auto mt-3 text-xl">
           Instantly extract vibrant color palettes and Tailwind CSS classes from
           any image
         </p>
       </header>
 
       {/* Main Content */}
-      <main className="max-w-5xl mx-auto p-6 flex-grow">
+      <main className="flex-grow max-w-5xl p-6 mx-auto">
         {/* Drag-and-Drop Section */}
-        <section className="bg-white shadow-xl rounded-xl p-8 border border-dashed border-gray-300 hover:border-indigo-400 transition-all mb-8">
+        <section className="p-8 mb-8 transition-all bg-white border border-gray-300 border-dashed shadow-xl rounded-xl hover:border-indigo-400">
           <div {...getRootProps()} className="text-center cursor-pointer">
             <input {...getInputProps()} />
             <p className="text-lg text-gray-700">
@@ -95,11 +95,11 @@ export default function ColorSnap() {
                 ? "Processing image..."
                 : "Drag & drop an image, or click to upload (PNG, JPG)"}
             </p>
-            <p className="text-sm text-gray-400 mt-1">Max file size: 5MB</p>
+            <p className="mt-1 text-sm text-gray-400">Max file size: 5MB</p>
             {isLoading && (
-              <div className="mt-4 flex justify-center">
+              <div className="flex justify-center mt-4">
                 <svg
-                  className="animate-spin h-8 w-8 text-indigo-500"
+                  className="w-8 h-8 text-indigo-500 animate-spin"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -125,23 +125,23 @@ export default function ColorSnap() {
 
         {/* Error Message */}
         {error && (
-          <div className="bg-red-100 text-red-700 p-4 rounded-lg text-center mb-6">
+          <div className="p-4 mb-6 text-center text-red-700 bg-red-100 rounded-lg">
             {error}
           </div>
         )}
 
         {/* Image Preview (Optional) */}
         {imageSrc && showPreview && (
-          <section className="mb-8 flex justify-center">
+          <section className="flex justify-center mb-8">
             <div className="relative">
               <img
                 src={imageSrc}
                 alt="Uploaded preview"
-                className="max-w-full max-h-80 rounded-lg shadow-md"
+                className="max-w-full rounded-lg shadow-md max-h-80"
               />
               <button
                 onClick={() => setShowPreview(false)}
-                className="absolute top-2 right-2 bg-gray-800 text-white text-xs px-2 py-1 rounded-full hover:bg-gray-900"
+                className="absolute px-2 py-1 text-xs text-white bg-gray-800 rounded-full top-2 right-2 hover:bg-gray-900"
               >
                 Hide Preview
               </button>
@@ -151,7 +151,7 @@ export default function ColorSnap() {
 
         {/* Color Swatches */}
         {colors.length > 0 && (
-          <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <section className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
             {colors.map((color, index) => (
               <ColorSwatch key={index} color={color} index={index} />
             ))}
@@ -161,10 +161,10 @@ export default function ColorSnap() {
 
       {/* Footer */}
       <hr className="my-4 border-gray-300"></hr>
-      <footer className="py-6 bg-gray-50 text-center text-3xl text-gray-500 ">
+      <footer className="py-6 text-3xl text-center text-gray-500 bg-gray-50 ">
         Built by <span className="font-semibold">Melvin Joseph</span> —{" "}
         <a
-          href="https://github.com/MelvinJoseph"
+          href="https://github.com/kingjosmel/colorSnap"
           className="text-indigo-500 hover:underline"
         >
           GitHub
