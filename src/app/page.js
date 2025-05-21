@@ -74,6 +74,7 @@ export default function ColorSnap() {
   return (
     <div className="flex flex-col min-h-screen text-gray-900 bg-gray-50">
       {/* Hero Section */}
+
       <header className="py-16 text-center text-white bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
         <h1 className="text-5xl font-extrabold tracking-tight animate-fade-in">
           🎨 ColorSnap
@@ -161,21 +162,39 @@ export default function ColorSnap() {
 
       {/* Footer */}
       <hr className="my-4 border-gray-300"></hr>
-      <footer className="py-6 text-3xl text-center text-gray-500 bg-gray-50 ">
-        Built by <span className="font-semibold">Melvin Joseph</span> —{" "}
-        <a
-          href="https://github.com/kingjosmel/colorSnap"
-          className="text-indigo-500 hover:underline"
-        >
-          GitHub
-        </a>{" "}
-        —
-        <a
-          href="https://x.com/kingvyn"
-          className="text-indigo-500 hover:underline"
-        >
-          twitter
-        </a>{" "}
+      {/* Footer */}
+      <hr className="my-4 border-gray-300"></hr>
+      <footer className="flex justify-around py-6 text-center text-gray-500 bg-gray-50">
+        <div className="mb-4 text-3xl">
+          Built by <span className="font-semibold">Melvin Joseph</span> —{" "}
+          <a
+            href="https://github.com/kingjosmel/colorSnap"
+            className="text-indigo-500 hover:underline"
+          >
+            GitHub
+          </a>{" "}
+          —{" "}
+          <a
+            href="https://x.com/kingvyn"
+            className="text-indigo-500 hover:underline"
+          >
+            Twitter
+          </a>
+        </div>
+        <div className="flex justify-center">
+          <a
+            href="https://www.producthunt.com/posts/colorsnap-2?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-colorsnap-2"
+            target="_blank"
+          >
+            <img
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=968578&theme=light&t=1747869914668"
+              alt="colorSnap - Turn images into Tailwind CSS color palettes instantly. | Product Hunt"
+              style={{ width: "250px", height: "54px" }}
+              width="250"
+              height="54"
+            />
+          </a>
+        </div>
       </footer>
     </div>
   );
