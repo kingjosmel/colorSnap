@@ -169,6 +169,13 @@ export default function ColorSnap() {
         >
           GitHub
         </a>{" "}
+        —
+        <a
+          href="https://x.com/kingvyn"
+          className="text-indigo-500 hover:underline"
+        >
+          twitter
+        </a>{" "}
       </footer>
     </div>
   );

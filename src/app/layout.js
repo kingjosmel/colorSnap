@@ -6,7 +6,7 @@ export const metadata = {
   description:
     "Extract dominant colors from images and get hex codes and Tailwind CSS classes.",
   icons: {
-    icon: "/image.png",
+    icon: "/favicon.ico",
   },
 };
 
