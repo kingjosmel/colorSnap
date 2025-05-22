@@ -164,7 +164,7 @@ export default function ColorSnap() {
       <hr className="my-4 border-gray-300"></hr>
       {/* Footer */}
       <hr className="my-4 border-gray-300"></hr>
-      <footer className="flex justify-around py-6 text-center text-gray-500 bg-gray-50">
+      <footer className="py-6 text-center text-gray-500  md:flex md:justify-around bg-gray-50">
         <div className="mb-4 text-3xl">
           Built by <span className="font-semibold">Melvin Joseph</span> —{" "}
           <a
