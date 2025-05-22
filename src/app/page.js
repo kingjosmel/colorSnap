@@ -164,7 +164,7 @@ export default function ColorSnap() {
       <hr className="my-4 border-gray-300"></hr>
       {/* Footer */}
       <hr className="my-4 border-gray-300"></hr>
-      <footer className="py-6 text-center text-gray-500  md:flex md:justify-around bg-gray-50">
+      <footer className="py-6 text-center text-gray-500 md:flex md:justify-around bg-gray-50">
         <div className="mb-4 text-3xl">
           Built by <span className="font-semibold">Melvin Joseph</span> —{" "}
           <a
@@ -181,7 +181,8 @@ export default function ColorSnap() {
             Twitter
           </a>
         </div>
-        <div className="flex justify-center">
+        <div className="flex flex-col items-center justify-center gap-4 ">
+          <p>pls support the app by helping to upvote</p>
           <a
             href="https://www.producthunt.com/posts/colorsnap-2?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-colorsnap-2"
             target="_blank"
