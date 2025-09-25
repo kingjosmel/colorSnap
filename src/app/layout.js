@@ -25,14 +25,14 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://color-snap-five.vercel.app'),
+  metadataBase: new URL('https://colorsnap.online'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "ColorSnap: Extract Colors from Image Online | Free Color Picker Tool",
     description: "Upload any image to extract color palette instantly. Get hex codes, RGB values, and matching Tailwind CSS classes.",
-    url: 'https://color-snap-five.vercel.app',
+    url: 'https://colorsnap.online',
     siteName: 'ColorSnap',
     images: [
       {
@@ -74,7 +74,7 @@ export default function RootLayout({ children }) {
     '@type': 'WebApplication',
     name: 'ColorSnap',
     description: 'Extract color palettes from images and get hex codes, RGB values, and matching Tailwind CSS classes instantly.',
-    url: 'https://color-snap-five.vercel.app',
+    url: 'https://colorsnap.online',
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web Browser',
     browserRequirements: 'Requires JavaScript. Requires HTML5.',
@@ -91,7 +91,7 @@ export default function RootLayout({ children }) {
       'Download color palettes',
       'Drag and drop image upload'
     ],
-    screenshot: 'https://color-snap-five.vercel.app/og-image.png',
+    screenshot: 'https://colorsnap.online/og-image.png',
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.8',
