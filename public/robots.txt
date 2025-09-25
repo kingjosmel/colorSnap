@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://color-snap-five.vercel.app
+Host: https://colorsnap.online
 
 # Sitemaps
-Sitemap: https://color-snap-five.vercel.app/sitemap.xml
+Sitemap: https://colorsnap.online/sitemap.xml
