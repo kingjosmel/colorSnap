@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://color-snap-five.vercel.app',
+  siteUrl: process.env.SITE_URL || 'https://colorsnap.online',
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: 'weekly',
@@ -14,7 +14,7 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      'https://color-snap-five.vercel.app/sitemap.xml',
+      'https://colorsnap.online/sitemap.xml',
     ],
   },
   transform: async (config, path) => {
