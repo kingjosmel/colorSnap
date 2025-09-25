@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎨 ColorSnap
 
-## Getting Started
+ColorSnap is a web app for developers and designers who hate manually picking colors.  
+Upload an image (screenshot, UI, website shot, etc.) and get a clean, ready-to-use color palette instantly.  
 
-First, run the development server:
+👉 Try it live: [colorsnap.dev](https://colorsnap.online)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
+- Extracts **hex color palettes** from any image
+- **Tailwind CSS export** for devs
+- Copy palette in **CSS, HEX, or Figma-ready formats**
+- Clean, minimal UI — no signups, no fluff
+- Fast, lightweight, mobile-friendly
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Tech Stack
+- **Frontend:** Next
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 How It Works
+1. Upload or drag & drop an image  
+2. ColorSnap analyzes the pixels using a custom color reduction algorithm  
+3. Get a clean, distinct set of colors (no duplicates or muddy tones)  
+4. Copy or export your palette into your project  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to add.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+MIT License — free to use, modify, and distribute.  
+
+---
+
+## 🙌 Support
+If you find ColorSnap useful, check it out on [Product Hunt](https://www.producthunt.com/posts/colorsnap) and share it with other devs.  

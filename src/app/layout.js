@@ -1,5 +1,7 @@
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export const metadata = {
   title: "ColorSnap: Image to Tailwind Palette",
@@ -13,8 +15,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
-      <Analytics />
+      <body>
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
+        <Analytics />
+      </body>
     </html>
   );
 }
