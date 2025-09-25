@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://colorsnap.vercel.app
+
+# Sitemaps
+Sitemap: https://colorsnap.vercel.app/sitemap.xml

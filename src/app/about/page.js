@@ -1,6 +1,12 @@
 export const metadata = {
-  title: "About Us - ColorSnap",
-  description: "Learn about ColorSnap, the color palette extraction tool for developers and designers.",
+  title: "About ColorSnap - Free Online Color Extraction Tool for Developers",
+  description: "ColorSnap is the leading free online tool to extract color palettes from images. Get hex codes, RGB values, and Tailwind CSS classes instantly. Built for developers and designers.",
+  openGraph: {
+    title: "About ColorSnap - Free Online Color Extraction Tool",
+    description: "ColorSnap is the leading free online tool to extract color palettes from images. Get hex codes, RGB values, and Tailwind CSS classes instantly.",
+    url: '/about',
+    type: 'website',
+  },
 };
 
 export default function About() {
