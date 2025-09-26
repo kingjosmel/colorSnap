@@ -7,6 +7,41 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: "why-color-theory-still-matters-2025",
+    title: "Why Color Theory Still Matters in 2025 (And How to Hack It With Tools)",
+    excerpt: "Discover why color theory remains crucial for modern web design and how to use image color extractor tools and hex code generators to apply it effectively.",
+    date: "2025-01-26",
+    category: "Design Theory"
+  },
+  {
+    slug: "10-color-tools-save-designers-hours",
+    title: "10 Color Tools That Will Save Designers Hours of Work",
+    excerpt: "Discover the best free color tools for extracting hex codes from images, generating color palettes, and creating perfect website color schemes.",
+    date: "2025-01-26",
+    category: "Tools & Tips"
+  },
+  {
+    slug: "perfect-color-scheme-website-60-seconds",
+    title: "How to Find the Perfect Color Scheme for Your Website in 60 Seconds",
+    excerpt: "Learn the fastest method to extract hex codes from images and create professional website color schemes using proven techniques.",
+    date: "2025-01-26",
+    category: "Tools & Tips"
+  },
+  {
+    slug: "idea-to-product-simple-apps-success-stories",
+    title: "From Idea to Product: Stories of Simple Apps That Got Paying Users",
+    excerpt: "Discover how simple tools like image color extractors and hex code generators became profitable products with real success stories.",
+    date: "2025-01-26",
+    category: "Business Stories"
+  },
+  {
+    slug: "indie-devs-simple-tools-500-month",
+    title: "How Indie Devs Are Turning Simple Tools Into $500+ a Month",
+    excerpt: "Learn proven strategies indie developers use to monetize simple tools like image color extractors into recurring $500+ monthly revenue streams.",
+    date: "2025-01-26",
+    category: "Business Strategy"
+  },
+  {
     slug: "how-to-extract-color-codes-from-any-image",
     title: "How to Extract Color Codes from Any Image",
     excerpt: "Learn the complete guide to extracting hex codes, RGB values, and color palettes from any photo using free online tools and techniques.",
