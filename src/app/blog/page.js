@@ -7,6 +7,13 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: "weekend-hack-1200-month",
+    title: "How a Solo Dev Turned a Weekend Hack Into $1,200/Month",
+    excerpt: "The inspiring story of a developer who built a simple Chrome extension over a single weekend and grew it into $1,200/month recurring revenue. Learn the exact strategies that worked.",
+    date: "2025-01-26",
+    category: "Success Stories"
+  },
+  {
     slug: "why-color-theory-still-matters-2025",
     title: "Why Color Theory Still Matters in 2025 (And How to Hack It With Tools)",
     excerpt: "Discover why color theory remains crucial for modern web design and how to use image color extractor tools and hex code generators to apply it effectively.",
