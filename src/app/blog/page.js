@@ -7,6 +7,41 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: "from-idea-to-paying-users-30-days",
+    title: "From Idea to Paying Users: Lessons From a Maker Who Launched in 30 Days",
+    excerpt: "Danny Postma built HeadshotPro in 30 days and reached $300,000 in monthly revenue. Here's exactly how he did it, and what you can learn from his rapid launch strategy.",
+    date: "2025-09-30",
+    category: "Success Stories"
+  },
+  {
+    slug: "why-small-tools-can-become-big-wins",
+    title: "Why Small Tools Can Become Big Wins: Stories of Makers Who Proved It",
+    excerpt: "The most successful indie makers aren't building complex platforms. They're building simple tools that solve one problem exceptionally well. Here are the real stories behind the wins.",
+    date: "2025-09-29",
+    category: "Success Stories"
+  },
+  {
+    slug: "what-indie-hackers-learn-micro-saas",
+    title: "What Indie Hackers Can Learn From Micro-SaaS Success Stories",
+    excerpt: "Solo founders are building million-dollar micro-SaaS businesses. Here are the proven strategies and hard-won lessons from makers who've reached $45K/month, $100K/month, and beyond.",
+    date: "2025-09-29",
+    category: "Lessons & Insights"
+  },
+  {
+    slug: "solo-founder-100k-year-blueprint",
+    title: "The Solo Founder's Blueprint to $100K/Year: Real Stories and Proven Strategies",
+    excerpt: "How Bhanu Teja reached $100K MRR at 24 and Sarah Chen built ScreenshotAPI to $120K annually. Step-by-step blueprint for solo founders to hit six figures.",
+    date: "2025-09-19",
+    category: "Success Stories"
+  },
+  {
+    slug: "micro-saas-mistakes-avoid-first-year",
+    title: "5 Micro-SaaS Mistakes That Kill 95% of Startups in Year One (And How to Avoid Them)",
+    excerpt: "Real stories of founders who failed and succeeded. Learn from the mistakes that killed 95% of micro-SaaS startups and the strategies that led to $1M+ revenues.",
+    date: "2025-08-9",
+    category: "Lessons & Insights"
+  },
+  {
     slug: "weekend-hack-1200-month",
     title: "How a Solo Dev Turned a Weekend Hack Into $1,200/Month",
     excerpt: "The inspiring story of a developer who built a simple Chrome extension over a single weekend and grew it into $1,200/month recurring revenue. Learn the exact strategies that worked.",

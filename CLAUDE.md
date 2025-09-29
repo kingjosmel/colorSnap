@@ -233,3 +233,4 @@ pick color code from image
 color palette tool for web designers
 - when writing the blog post always make sure to write it in this style professional visual standard as your existing content, with engaging
   formatting that enhances readability and user experience.
+- always add new blogs that you create to the blog section
