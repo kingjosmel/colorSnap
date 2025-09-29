@@ -99,11 +99,11 @@ export default function IndieHackersMicroSaasLessons() {
             <h3>What Indie Hackers Can Learn</h3>
             <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-6">
               <ul className="space-y-2 mb-0">
-                <li><strong>Speed > Perfection:</strong> Launch fast and improve based on real feedback, not assumptions</li>
+                <li><strong>Speed &gt; Perfection:</strong> Launch fast and improve based on real feedback, not assumptions</li>
                 <li><strong>Portfolio approach works:</strong> Running multiple small products reduces risk and increases learning</li>
-                <li><strong>Kill your darlings:</strong> Don't waste time on products without traction. Move on quickly</li>
+                <li><strong>Kill your darlings:</strong> Don&apos;t waste time on products without traction. Move on quickly</li>
                 <li><strong>Build in public:</strong> Sharing your journey attracts customers, feedback, and opportunities</li>
-                <li><strong>$45K/month is achievable:</strong> You don't need a billion-dollar exit to build life-changing income</li>
+                <li><strong>$45K/month is achievable:</strong> You don&apos;t need a billion-dollar exit to build life-changing income</li>
               </ul>
             </div>
 
