@@ -102,6 +102,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="google-adsense-account" content="ca-pub-3003288364023705" />
         <link rel="preconnect" href="https://vercel.live" />
         <link rel="dns-prefetch" href="//vercel.live" />
         <script
