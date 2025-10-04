@@ -7,6 +7,13 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: "66-days-1175-mrr-reddit-marketing",
+    title: "Shipper.now Success: How to Market on Reddit & Grow on Product Hunt",
+    excerpt: "Learn how to market on Reddit, grow on Product Hunt, use SEO strategy, and implement email marketing from shipper.now's journey to $1,175 MRR in 66 days. Real tactics that worked.",
+    date: "2025-02-02",
+    category: "Success Stories"
+  },
+  {
     slug: "from-idea-to-paying-users-30-days",
     title: "From Idea to Paying Users: Lessons From a Maker Who Launched in 30 Days",
     excerpt: "Danny Postma built HeadshotPro in 30 days and reached $300,000 in monthly revenue. Here's exactly how he did it, and what you can learn from his rapid launch strategy.",
